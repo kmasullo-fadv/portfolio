@@ -147,6 +147,11 @@ a {
         display: flex;
     }
 
+    section#projects img {
+        width: 400px;
+    }
+
+
 
     .wrapper {
         width: 75%;
