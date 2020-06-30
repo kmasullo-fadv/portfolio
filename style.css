@@ -1,0 +1,164 @@
+/* ********** General *************** */
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+background-color: #ffffff;
+margin: 0;
+}
+/* ****************************** */
+
+/* *************** Header ********************* */
+
+header {
+    background-color: #000;
+    padding: 0 30px 10px 30px;
+}
+
+header div h1, header div h3 {
+    text-align: center;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header div h1 {
+    font-size: 40px;
+    margin: 0;
+    padding-top: 20px;
+}
+
+header div h3 {
+    padding-top: 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 0 20px 0 0;
+}
+/* *************************** */
+
+
+/* *********** Main **************** */
+img {
+    width: 100%;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+
+form {
+    padding: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+form textarea {
+    height: 200px;
+}
+
+/* *************************** */
+
+/* ************* Classes ***************** */
+.wrapper {
+    width: 75%;
+    margin: auto;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 10%;
+}
+
+.item {
+    flex: 1;
+    padding: 0 20px;
+}
+/* ******************************* */
+
+
+/* ************** Footer *************** */
+footer {
+    margin: 90px 0px 0px 0px;
+    background-color: black;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+footer > div > p {
+    color: white;
+    padding: 15px 0 0 0;
+}
+
+footer div a {
+    padding: 0 10px;
+}
+
+/* ********************************* */
+
+
+/*  **************** Links ********************  */
+
+a {
+    text-decoration: none;
+  }
+  
+  a:link {color: rgb(66, 64, 179)}
+  a:visited {color: rgb(97, 115, 177)}
+  a:hover {color: #838383}
+  a:active {color: rgba(37, 37, 37, 0.89)}
+  
+  header a:link {color: white}
+  header a:visited {color: white}
+  header a:hover {color: #ffa200}
+  header a:active {color: rgb(104, 104, 104)}
+
+/* ******************************************* */
+
+
+@media all and (min-width: 600px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header nav ul li {
+        padding-right: 10px;
+        padding-top: 80px;
+    }
+
+    header nav ul li {
+        display: flex;
+    }
+
+
+    .wrapper {
+        width: 75%;
+        margin: auto;
+    }
+
+    .group {
+        flex-direction: row;
+        margin: 10%;
+    }
+
+    .group-column {
+        flex-direction: column;
+    }
+}
