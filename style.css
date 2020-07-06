@@ -52,7 +52,7 @@ header nav ul li a {
 
 /* *********** Main **************** */
 img {
-    width: 100%;
+    width: 80%;
 }
 
 p {
@@ -91,6 +91,11 @@ form textarea {
     flex: 1;
     padding: 0 20px;
 }
+
+.group-column {
+    flex-direction: column;
+    margin-bottom: 30px;
+}
 /* ******************************* */
 
 
@@ -110,6 +115,7 @@ footer div a {
     padding: 0 10px;
 }
 
+
 /* ********************************* */
 
 
@@ -124,10 +130,15 @@ a {
   a:hover {color: #838383}
   a:active {color: rgba(37, 37, 37, 0.89)}
   
+  footer a:link,
   header a:link {color: white}
+  footer a:visited,
   header a:visited {color: white}
+  footer a:hover,
   header a:hover {color: #ffa200}
+  footer a:active,
   header a:active {color: rgb(104, 104, 104)}
+  
 
 /* ******************************************* */
 
@@ -152,7 +163,6 @@ a {
     }
 
 
-
     .wrapper {
         width: 75%;
         margin: auto;
@@ -163,7 +173,5 @@ a {
         margin: 10%;
     }
 
-    .group-column {
-        flex-direction: column;
-    }
+
 }
